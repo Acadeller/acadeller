@@ -51,8 +51,6 @@ Este repositorio tiene 3 ramas principales:
 2. `jounin` - rama de pre.
 3. `genin` - rama de testing.
 
-<br>
-
 # Contribución
 
 Cualquier persona puede contribuir a este repositorio, invitamos a la comunidad a formar parte de este proyecto para hacer crecer este recurso y que tengo un mayor valor.  
