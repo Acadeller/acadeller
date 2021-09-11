@@ -19,6 +19,7 @@
 # Tabla de contenidos 💡
 
 - [Resumen](#resumen)
+- [Comunidad](#comunidad)
 - [Contribución](#contribución)
 
 # Resumen 
@@ -38,28 +39,6 @@ Si te interesa [contribuir](#contribución) en este repositorio puedes hacerlo d
   	</a>
 - También puedes ver nuestro contenido en [Linkedin](https://www.linkedin.com/company/68485158). 
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Contribución
 
