@@ -25,7 +25,7 @@
 
 # Resumen 
 
-[Acadeller](https://github.com/Acadeller) es una comunidad creada para impulsar a las personas en el mundo del desarrollo de software. Que empezó siendo una pequeña cuenta de Instagram que hacía publicaciones sobre programación. A día de hoy contamos con más de 15.000 seguidores en nuestras redes sociales, pero nuestro objetivo sigue siendo el mismo: ***ayudar a a la gente a aprender programación.***
+[Acadeller](https://github.com/Acadeller) es una comunidad creada para impulsar a las personas en el mundo del desarrollo de software. Que empezó siendo una pequeña cuenta de Instagram que hacía publicaciones sobre programación. A día de hoy contamos con más de 22.000 seguidores en nuestras redes sociales, pero nuestro objetivo sigue siendo el mismo: ***ayudar a a la gente a aprender programación.***
 
 Si te interesa [contribuir](#contribución) en este repositorio puedes hacerlo de [esta manera](#contribución).
 
@@ -57,7 +57,7 @@ Cualquier persona puede contribuir a este repositorio, invitamos a la comunidad 
 
 ## ¿Cómo contribuir al repositorio? 🤝
 
-No dudes en crear un Pull Request para problemas pequeños. Para problemas o características más grande, es importante abrir primero un 'issue' con dicho problema. Los PRs se realizan a la rama `jounin`, todos los PRs que se intenten hacer a la rama `kage` serán rechazados.
+No dudes en crear un Pull Request para resolver problemas pequeños. Para problemas o características más grande, es importante abrir primero un 'issue' con dicho problema. Los PRs se realizan a la rama `jounin`, todos los PRs que se intenten hacer a la rama `kage` serán rechazados.
 
 ### Opción 1 - Arreglar problemas pequeños 
 
