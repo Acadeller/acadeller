@@ -57,7 +57,7 @@ Cualquier persona puede contribuir a este repositorio, invitamos a la comunidad 
 
 ## ¿Cómo contribuir al repositorio? 🤝
 
-No dudes en crear un PR para problemas pequeños. Para problemas o características más grande, es importante abrir primero un 'issue' con dicho problema.
+No dudes en crear un Pull Request para problemas pequeños. Para problemas o características más grande, es importante abrir primero un 'issue' con dicho problema. Los PRs se realizan a la rama `jounin`, todos los PRs que se intenten hacer a la rama `kage` serán rechazados.
 
 ### Opción 1 - Arreglar problemas pequeños 
 
