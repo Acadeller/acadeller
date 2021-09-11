@@ -20,6 +20,7 @@
 
 - [Resumen](#resumen)
 - [Comunidad](#comunidad)
+- [Proyecto](#proyecto)
 - [Contribución](#contribución)
 
 # Resumen 
@@ -39,6 +40,17 @@ Si te interesa [contribuir](#contribución) en este repositorio puedes hacerlo d
   	</a>
 - También puedes ver nuestro contenido en [Linkedin](https://www.linkedin.com/company/68485158). 
 
+# Proyecto
+
+## Ramas 
+
+Este repositorio tiene 3 ramas principales: 
+
+1. `kage` - rama de producción.
+2. `jounin` - rama de pre.
+3. `genin` - rama de testing.
+
+![Naruto Fighting](https://c.tenor.com/L4UF8SwSt6YAAAAC/naruto-fight.gif)
 
 # Contribución
 
