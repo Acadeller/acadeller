@@ -60,3 +60,40 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# Contribución
+
+Cualquier persona puede contribuir a este repositorio, invitamos a la comunidad a formar parte de este proyecto para hacer crecer este recurso y que tengo un mayor valor.  
+
+## ¿Cómo contribuir al repositorio? 🤝
+
+No dudes en crear un PR para problemas pequeños. Para problemas o características más grande, es importante abrir primero un 'issue' con dicho problema.
+
+### Opción 1 - Arreglar problemas pequeños 
+
+Para problemas pequeños, como un error tipográfico o un enlace roto, use el editor de archivos en línea de Github para corregirlo y enviar un Pull Request. 
+
+### Opción 2 - Trabajar en tu propio Fork
+
+Para contribuciones más complejas, cambios grandes o nuevas funciones, debes trabajar en el proyecto desde tu sistema local. 
+
+Primero, haz fork de este repositorio en Github.
+
+```shell
+git clone <tu-fork-del-repositorio>
+npm install
+npm ci
+npm run dev
+
+git checkout -b mi-rama
+# Realizas los cambios...
+
+git commit -m "[FIX] arreglado error que causaba..."
+git push origin mi-rama
+```
+
+Por último, abre un Pull Request en Github. Los cambios serán revisados y si son correctos, serán fusionados en la rama principal (kage).
+
+## Contribuidores 🏆
+
+* [César Álvarez Llaneza](https://github.com/cesaralvrz): Fundador de Acadeller.
