@@ -42,15 +42,20 @@ Si te interesa [contribuir](#contribución) en este repositorio puedes hacerlo d
 
 # Proyecto
 
-## Ramas 
+### Ramas:
 
-Este repositorio tiene 3 ramas principales: 
+<table border="0">
 
-1. `kage` - rama de producción.
-2. `jounin` - rama de pre.
-3. `genin` - rama de testing.
-
-![Naruto Fighting](https://c.tenor.com/L4UF8SwSt6YAAAAC/naruto-fight.gif)
+ <tr>
+    <td>Este repositorio tiene 3 ramas principales: 
+		1. `kage` - rama de producción.
+		2. `jounin` - rama de pre.
+		3. `genin` - rama de testing.
+	</td>
+    <td>![Naruto Fighting](https://c.tenor.com/L4UF8SwSt6YAAAAC/naruto-fight.gif)
+	</td>
+ </tr>
+</table>
 
 # Contribución
 
