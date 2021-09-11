@@ -1,10 +1,8 @@
 <div align="center"> 
 
-# Acadeller 💡 
+# ACADELLER
 
-![Acadeller - Acadeller](http://i.imgur.com/5fhhRTw.png)
-
-Creado por: [Acadeller](https://github.com/Acadeller)
+![Acadeller - Acadeller](https://i.imgur.com/MHrqFrY.png)
 
 <p align="center">
   Empieza tu carrera en el mundo del desarrollo de software.
@@ -26,8 +24,6 @@ Creado por: [Acadeller](https://github.com/Acadeller)
 # Resumen 
 
 [Acadeller](https://github.com/Acadeller) es una comunidad creada para impulsar a las personas en el mundo del desarrollo de software. Que empezó siendo una pequeña cuenta de Instagram que hacía publicaciones sobre programación. A día de hoy contamos con más de 15.000 seguidores en nuestras redes sociales, pero nuestro objetivo sigue siendo el mismo: ***ayudar a a la gente a aprender programación.***
-
-Por esa razón, nace este repositorio. Cuyo objetivo principal, es recopilar la mayor cantidad posible de recursos de programación que existan en internet, para que estén al alcance de cualquier persona en todo momento. El repositorio está dividido por lenguajes de programación, en cada lenguaje podrás encontrar recursos para dicho lenguaje, frameworks, librerías y mucho más.
 
 Si te interesa [contribuir](#contribución) en este repositorio puedes hacerlo de [esta manera](#contribución).
 
