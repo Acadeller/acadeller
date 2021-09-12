@@ -1,15 +1,26 @@
 <template>
   <div class="app-wrapper">
     <div class="app">
-      <router-view />
+      <Nav/>
+      <main>
+        <router-view />
+        <h1>Hola</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
+      </main>
     </div>
   </div>
 </template>
 
 <script>
+import Nav from './components/Nav'
+
 export default {
   name: "app",
-  components: {},
+  components: { Nav },
   data() {
     return {};
   },
@@ -31,6 +42,18 @@ export default {
   font-family: 'Roboto', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ffcc00;
+}
+
 h1 {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -39,6 +62,11 @@ h1 {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
 }
 
 .container {
