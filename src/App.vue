@@ -4,12 +4,6 @@
       <Nav/>
       <main>
         <router-view />
-        <h1>Hola</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate dolorem, amet saepe deleniti optio. Praesentium, maiores quo! Consequatur provident vero ipsam voluptas itaque expedita nihil iure sequi perferendis vel.</p>
       </main>
     </div>
   </div>
@@ -51,7 +45,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #ffcc00;
+  background: #8d8d8d;
 }
 
 h1 {
@@ -67,6 +61,9 @@ h1 {
 main {
   margin-left: 5rem;
   padding: 1rem;
+  background: rgb(23, 23, 27);
+  min-height: 800px;
+  color: #fff;
 }
 
 .container {
@@ -83,5 +80,12 @@ main {
 
 .link-light {
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin-left: 0rem;
+    padding: 1rem;
+  }
 }
 </style>
