@@ -5,23 +5,21 @@
       <main>
         <router-view />
       </main>
+      <Footer/>
     </div>
   </div>
 </template>
 
 <script>
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 export default {
   name: "app",
-  components: { Nav },
-  data() {
-    return {};
+  components: { 
+    Nav,
+    Footer 
   },
-  created() {},
-  mounted() {},
-  methods: {},
-  watch: {},
 };
 </script>
 
@@ -66,7 +64,7 @@ main {
   margin-left: 5rem;
   padding: 1rem;
   background: rgb(23, 23, 27);
-  min-height: 800px;
+  min-height: 550px;
   color: #fff;
 }
 

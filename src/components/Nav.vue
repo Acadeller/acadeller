@@ -139,6 +139,7 @@ export default {
 
 .navbar:hover .logo svg {
     transform: scale(0.85);
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -196,5 +197,4 @@ export default {
     left: 0px;
   }
 }
-
 </style>
