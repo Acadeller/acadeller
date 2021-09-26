@@ -88,6 +88,7 @@ export default {
 @media only screen and (max-width: 600px) {
     .footer {
         margin-left: 0rem;
+        margin-bottom: 80px;
     }
 }
 </style>

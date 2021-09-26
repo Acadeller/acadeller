@@ -61,6 +61,7 @@ h1 {
 }
 
 main {
+  margin-top: 0.25rem;
   margin-left: 5rem;
   padding: 1rem;
   background: rgb(23, 23, 27);
