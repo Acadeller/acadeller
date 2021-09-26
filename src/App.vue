@@ -36,6 +36,10 @@ export default {
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+  background: rgb(23, 23, 27);
+}
+
 body::-webkit-scrollbar {
   width: 0.25rem;
 }
