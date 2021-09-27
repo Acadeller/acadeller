@@ -5,6 +5,7 @@ import Courses from "../views/Courses.vue";
 import Lessons from "../views/Lessons.vue";
 import Tags from "../views/Tags.vue";
 import About from "../views/About.vue";
+import Error from "../views/Error.vue";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: "/acerca",
     name: "about",
     component: About,
+  },
+  {
+    path: "/404",
+    name: "Error",
+    component: Error,
   },
 ];
 
