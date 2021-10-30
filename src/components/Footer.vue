@@ -1,25 +1,41 @@
 <template>
 <footer class="footer" align="center">
     <div class="social_links">
-        <a href="https://www.instagram.com/acadeller/" target="_blank">
+        <a 
+        href="https://www.instagram.com/acadeller/" 
+        target="_blank"
+        rel=”noopener noreferrer”
+        >
             <span class="fa-stack fa-lg ic combo">
                 <i class="fa fa-circle fa-stack-2x circle"></i>
                 <i class="fa fa-instagram fa-stack-1x fa-inverse icon"></i>
             </span>
         </a>
-        <a href="https://twitter.com/acadeller" target="_blank">
+        <a 
+        href="https://twitter.com/acadeller" 
+        target="_blank"
+        rel=”noopener noreferrer”
+        >
             <span class="fa-stack fa-lg ic combo">
                 <i class="fa fa-circle fa-stack-2x circle"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse icon"></i>
             </span>
         </a>
-        <a href="https://github.com/Acadeller" target="_blank">
+        <a 
+        href="https://github.com/Acadeller" 
+        target="_blank"
+        rel=”noopener noreferrer”
+        >
             <span class="fa-stack fa-lg ic combo">
                 <i class="fa fa-circle fa-stack-2x circle"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse icon"></i>
             </span>
         </a>
-        <a href="https://www.linkedin.com/company/acadeller" target="_blank">
+        <a 
+        href="https://www.linkedin.com/company/acadeller" 
+        target="_blank"
+        rel=”noopener noreferrer”
+        >
             <span class="fa-stack fa-lg ic combo">
                 <i class="fa fa-circle fa-stack-2x circle"></i>
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse icon"></i>

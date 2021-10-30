@@ -452,22 +452,4 @@ $color-wood-2: #ffcc00;
     left: 80px;
   }
 }
-
-#link {
-  bottom: 20px;
-  color: #000;
-  opacity: 0.2;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-#link p {
-  margin: 0;
-  margin-left: 5px;
-}
-#link:hover {
-  opacity: 1;
-}
 </style>
