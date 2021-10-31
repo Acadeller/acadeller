@@ -4,7 +4,7 @@
         <a 
         href="https://www.instagram.com/acadeller/" 
         target="_blank"
-        rel=”noopener noreferrer”
+        rel=”noopener”
         >
             <span class="fa-stack fa-lg ic combo">
                 <i class="fa fa-circle fa-stack-2x circle"></i>
@@ -14,7 +14,7 @@
         <a 
         href="https://twitter.com/acadeller" 
         target="_blank"
-        rel=”noopener noreferrer”
+        rel=”noopener”
         >
             <span class="fa-stack fa-lg ic combo">
                 <i class="fa fa-circle fa-stack-2x circle"></i>
@@ -24,7 +24,7 @@
         <a 
         href="https://github.com/Acadeller" 
         target="_blank"
-        rel=”noopener noreferrer”
+        rel=”noopener”
         >
             <span class="fa-stack fa-lg ic combo">
                 <i class="fa fa-circle fa-stack-2x circle"></i>
@@ -34,7 +34,7 @@
         <a 
         href="https://www.linkedin.com/company/acadeller" 
         target="_blank"
-        rel=”noopener noreferrer”
+        rel=”noopener”
         >
             <span class="fa-stack fa-lg ic combo">
                 <i class="fa fa-circle fa-stack-2x circle"></i>
