@@ -30,13 +30,13 @@ export default {
       sampleBlogpost: [
         {
           title: "Título de prueba",
-          blogHTML: "Título de mucha prueba",
+          blogPost: "Descripción de la entrada del Blog",
           blogCoverPhoto: "beautiful-stories"
         },
 
         {
           title: "Título de prueba 2",
-          blogHTML: "Título de mucha prueba 2",
+          blogPost: "Descripción de la entrada del Blog",
           blogCoverPhoto: "beautiful-stories"
         }
       ]
