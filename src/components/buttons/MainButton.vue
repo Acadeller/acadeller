@@ -19,7 +19,7 @@ export default {
   border: 0;
   border-radius: .375rem;
   box-sizing: border-box;
-  color: #17171B;
+  color: #26262e;
   cursor: pointer;
   display: inline-block;
   font-family: Circular,Helvetica,sans-serif;

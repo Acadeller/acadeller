@@ -41,7 +41,7 @@ export default {
     border-bottom: 2px dashed rgb(50, 50, 70);
     @media (min-width: 700px) {
         min-height: 400px;
-        max-height: 450px;
+        max-height: 500px;
         flex-direction: row;
     }
     .blog-content {
@@ -49,7 +49,6 @@ export default {
         text-align: left;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         flex: 4;
         order: 2;
         @media (min-width: 700px) {
@@ -59,7 +58,7 @@ export default {
             flex: 3;
         }
         div {
-            max-width: 375px;
+            max-width: 500px;
             padding: 72px 24px;
             @media (min-width: 700px) {
                 padding: 0 24px;
@@ -73,15 +72,12 @@ export default {
                     font-size: 40px;
                 }
             }
-            p {
-                font-size: 15px;
+            .content-preview {
                 font-weight: 300;
                 line-height: 1.7;
-            }
-            .content-preview {
-                font-size: 13px;
-                max-height: 24px;
-                width: 250px;
+                font-size: 18px;
+                max-height: 34px;
+                width: 400px;
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
@@ -124,6 +120,12 @@ export default {
         }
         .blog-photo {
             order: 1;
+        }
+    }
+
+    &:nth-child(odd) {
+        .blog-content {
+            align-items: center;
         }
     }
 }

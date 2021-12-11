@@ -22,8 +22,8 @@ export default {
   data() {
     return {
       welcomeScreen: {
-        title: "¡Bienvenido!",
-        subtitle: "Trucos de Arrays con JavaScript",
+        title: "Enciende la bombilla",
+        subtitle: "Acadeller te guía para que empieces tu carrera como desarrollador",
         cover: "coding"
       },
 
