@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
   background: #8d8d8d;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -83,6 +83,19 @@ main {
 
 .link-light {
   color: #fff;
+}
+
+.arrow {
+  margin-left: 8px;
+  width: 12px;
+  path {
+    fill: rgb(23, 23, 27);
+  }
+}
+.arrow-light {
+  path {
+    fill: #fff;
+  }
 }
 
 @media only screen and (max-width: 600px) {
