@@ -5,8 +5,8 @@
     />
 
     <blog-post 
+      v-for="(post, index) in highlightedBlogposts" 
       :post="post" 
-      v-for="(post, index) in sampleBlogpost" 
       :key="index" 
     />
   </div>
@@ -23,21 +23,21 @@ export default {
     return {
       welcomeScreen: {
         title: "¡Bienvenido!",
-        blogPost: "Trucos de Arrays con JavaScript",
-        photo: "coding"
+        subtitle: "Trucos de Arrays con JavaScript",
+        cover: "coding"
       },
 
-      sampleBlogpost: [
+      highlightedBlogposts: [
         {
           title: "Título de prueba",
-          blogPost: "Descripción de la entrada del Blog",
-          blogCoverPhoto: "beautiful-stories"
+          description: "Descripción de la entrada del Blog",
+          cover: "beautiful-stories"
         },
 
         {
           title: "Título de prueba 2",
-          blogPost: "Descripción de la entrada del Blog",
-          blogCoverPhoto: "beautiful-stories"
+          description: "Descripción de la entrada del Blog",
+          cover: "beautiful-stories"
         }
       ]
     }

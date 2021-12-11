@@ -3,15 +3,15 @@
         <div class="blog-content">
             <div>
                 <h2>{{ post.title }}</h2>
-                <p class="content-preview">{{ post.blogPost }}</p>
-                <router-link class="link link-light" to="#">
-                    Ver más <arrow class="arrow arrow-light" />
+                <p class="content-preview">{{ post.description }}</p>
+                <router-link class="link" to="#">
+                    <main-button text="Ver Más"/>
                 </router-link>
             </div>
         </div>
         <div class="blog-photo">
             <img
-                :src="require(`../assets/blogPhotos/${post.blogCoverPhoto}.jpg`)"
+                :src="require(`../assets/blogPhotos/${post.cover}.jpg`)"
                 alt=""
             />
         </div>
@@ -19,21 +19,17 @@
 </template>
 
 <script>
-import Arrow from "../assets/Icons/arrow-right-light.svg";
+import MainButton from "./buttons/MainButton.vue";
 
 export default {
     name: "blogPost",
 
     props: {
-        post: {
-            title: {
-                type: String,
-            },
-        },
+        post: Object
     },
 
     components: {
-        Arrow,
+        MainButton
     },
 };
 </script>
@@ -73,7 +69,7 @@ export default {
                 font-size: 32px;
                 font-weight: 300;
                 text-transform: uppercase;
-                margin-bottom: 24px;
+                margin-bottom: 20px;
                 @media (min-width: 700px) {
                     font-size: 40px;
                 }
@@ -94,13 +90,8 @@ export default {
             .link {
                 display: inline-flex;
                 align-items: center;
-                margin-top: 32px;
+                margin-top: 20px;
                 padding-bottom: 4px;
-                border-bottom: 1px solid transparent;
-                transition: 0.5s ease-in all;
-                &:hover {
-                    border-bottom-color: #303030;
-                }
             }
             .link-light {
                 &:hover {
@@ -119,11 +110,13 @@ export default {
             flex: 4;
         }
         img {
-            display: block;
+            margin-top: 7%;
             align-self: center;
-            width: 80%;
+            border-radius: 10px;
+            display: block;
             height: 80%;
             object-fit: cover;
+            width: 80%;
         }
     }
     &:nth-child(even) {
