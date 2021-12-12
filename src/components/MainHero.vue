@@ -8,13 +8,13 @@
                     <main-button text="Ver Cursos"/>
                 </router-link>
                 <router-link class="link" to="/lecciones">
-                    <main-button class="secondary-button" text="Ver Lecciones"/>
+                    <secondary-button class="secondary-button" text="Ver Lecciones"/>
                 </router-link>
             </div>
         </div>
         <div class="hero-photo">
             <img
-                :src="require(`../assets/blogPhotos/${post.cover}.jpg`)"
+                :src="require(`../assets/${post.cover}.png`)"
                 alt=""
             />
         </div>
@@ -23,6 +23,7 @@
 
 <script>
 import MainButton from "./buttons/MainButton.vue";
+import SecondaryButton from "./buttons/SecondaryButton.vue";
 
 export default {
     name: "blogPost",
@@ -32,7 +33,8 @@ export default {
     },
 
     components: {
-        MainButton
+        MainButton,
+        SecondaryButton
     }
 }
 </script>
@@ -49,35 +51,28 @@ export default {
     }
     .hero-content {
         display: flex;
+        padding-left: 50px;
         text-align: left;
         flex-direction: column;
         justify-content: center;
-        flex: 4;
-        order: 2;
-        @media (min-width: 700px) {
-            order: 1;
-        }
         @media (min-width: 800px) {
-            flex: 3;
-            margin-left: 80px;
+            margin-left: 100px;
         }
         div {
-            max-width: 400px;
+            max-width: 500px;
             padding: 72px 24px;
-            @media (min-width: 700px) {
-                padding: 0 24px;
-            }
             h2 {
-                font-size: 32px;
+                font-size: 48px;
+                line-height: 1;
                 font-weight: 800;
                 text-transform: uppercase;
                 margin-bottom: 20px;
                 @media (min-width: 700px) {
-                    font-size: 45px;
+                    font-size: 55px;
                 }
             }
             span {
-              font-size: 50px;
+              font-size: 80px;
               font-family: 'Ubuntu', sans-serif;
               font-weight: 800;
               background: linear-gradient(90deg, rgba(255,204,0,1) 30%, rgb(255, 115, 0) 100%);
@@ -86,12 +81,14 @@ export default {
             }
             .content-preview {
                 font-weight: 300;
-                line-height: 1.9;
+                line-height: 1;
                 font-size: 25px;
-                max-height: 100px;
-                width: 10px;
-                white-space: nowrap;
-                overflow: break-word;
+                max-height: 34px;
+                width: 400px;
+                overflow-wrap: break-word;
+                overflow: break-word;;
+                text-overflow: ellipsis;
+                margin-bottom: 20px;
             }
             .link {
                 display: inline-flex;
@@ -112,6 +109,7 @@ export default {
         }
         img {
             margin-top: 7%;
+            margin-right: 40px;
             align-self: center;
             border-radius: 10px;
             display: block;

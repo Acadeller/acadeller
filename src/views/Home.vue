@@ -24,8 +24,8 @@ export default {
       welcomeScreen: {
         title: "Enciende la ",
         highlightedTitle: "bombilla",
-        subtitle: "Acadeller te guía para que empieces tu carrera como desarrollador",
-        cover: "coding"
+        subtitle: "Acadeller te impulsa a empezar tu carrera como desarrollador.",
+        cover: "3Dlamp"
       },
 
       highlightedBlogposts: [
