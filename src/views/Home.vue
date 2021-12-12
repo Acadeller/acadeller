@@ -22,7 +22,8 @@ export default {
   data() {
     return {
       welcomeScreen: {
-        title: "Enciende la bombilla",
+        title: "Enciende la ",
+        highlightedTitle: "bombilla",
         subtitle: "Acadeller te guía para que empieces tu carrera como desarrollador",
         cover: "coding"
       },

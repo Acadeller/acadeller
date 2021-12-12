@@ -30,8 +30,8 @@ export default {
 
     components: {
         MainButton
-    },
-};
+    }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -87,11 +87,6 @@ export default {
                 align-items: center;
                 margin-top: 20px;
                 padding-bottom: 4px;
-            }
-            .link-light {
-                &:hover {
-                    border-bottom-color: #ffff;
-                }
             }
         }
     }
