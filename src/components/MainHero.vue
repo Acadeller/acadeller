@@ -108,14 +108,27 @@ export default {
             flex: 4;
         }
         img {
-            margin-top: 7%;
             margin-right: 40px;
             align-self: center;
             border-radius: 10px;
             display: block;
-            height: 80%;
+            height: auto;
             object-fit: cover;
-            width: 80%;
+            width: 100%;
+            transform: translatey(0px);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+          0% {
+            transform: translatey(0px);
+          }
+          50% {
+            transform: translatey(-20px);
+          }
+          100% {
+            transform: translatey(0px);
+          }
         }
     }
 }
