@@ -5,17 +5,17 @@
                 <h2>{{ post.title }} <span>{{ post.highlightedTitle }}</span></h2>
                 <p class="content-preview">{{ post.subtitle }}</p>
                 <router-link class="link" to="/cursos">
-                    <main-button text="Ver Cursos"/>
+                    <main-button class="main-button" text="Ver Cursos"/>
                 </router-link>
                 <router-link class="link" to="/lecciones">
-                    <secondary-button class="secondary-button" text="Ver Lecciones"/>
+                    <secondary-button text="Ver Lecciones"/>
                 </router-link>
             </div>
         </div>
         <div class="hero-photo">
             <img
                 :src="require(`../assets/${post.cover}.png`)"
-                alt=""
+                alt="3Dlogo"
             />
         </div>
     </div>
@@ -51,28 +51,30 @@ export default {
     }
     .hero-content {
         display: flex;
-        padding-left: 50px;
         text-align: left;
         flex-direction: column;
         justify-content: center;
         @media (min-width: 800px) {
-            margin-left: 100px;
+            margin-left: 10rem;
         }
         div {
-            max-width: 500px;
-            padding: 72px 24px;
+            max-width: 25rem;
+            padding: 5rem 1.5rem;
+            @media (max-width: 700px) {
+                    padding: 3rem 0 0 1.5rem;
+                }
             h2 {
-                font-size: 48px;
+                font-size: 2.5rem;
                 line-height: 1;
                 font-weight: 800;
                 text-transform: uppercase;
                 margin-bottom: 20px;
                 @media (min-width: 700px) {
-                    font-size: 55px;
+                    font-size: 3rem;
                 }
             }
             span {
-              font-size: 80px;
+              font-size: 4rem;
               font-family: 'Ubuntu', sans-serif;
               font-weight: 800;
               background: linear-gradient(90deg, rgba(255,204,0,1) 30%, rgb(255, 115, 0) 100%);
@@ -82,13 +84,16 @@ export default {
             .content-preview {
                 font-weight: 300;
                 line-height: 1;
-                font-size: 25px;
-                max-height: 34px;
-                width: 400px;
+                font-size: 1.5rem;
+                max-height: 2rem;
+                width: 22rem;
                 overflow-wrap: break-word;
                 overflow: break-word;;
                 text-overflow: ellipsis;
-                margin-bottom: 20px;
+                margin-bottom: 1.3rem;
+                @media (max-width: 400px) {
+                    margin-bottom: 4rem;
+                }
             }
             .link {
                 display: inline-flex;
@@ -112,7 +117,6 @@ export default {
             align-self: center;
             border-radius: 10px;
             display: block;
-            height: auto;
             object-fit: cover;
             width: 100%;
             transform: translatey(0px);
@@ -133,7 +137,7 @@ export default {
     }
 }
 
-.secondary-button {
-  margin-left: 10px;
+.main-button {
+  margin-right: 0.6rem;
 }
 </style>

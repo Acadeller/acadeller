@@ -42,7 +42,7 @@
             </span>
         </a>
     </div>
-    <p>Copyright © {{date}} Acadeller</p>
+    <p>Copyright © {{ date }} Acadeller</p>
 </footer>
 </template>
 
