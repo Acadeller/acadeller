@@ -1,11 +1,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import Courses from "../views/Courses.vue";
-import Lessons from "../views/Lessons.vue";
-import Tags from "../views/Tags.vue";
-import About from "../views/About.vue";
-import Error from "../views/Error.vue";
+import HomeView from "../views/HomeView.vue";
+import CoursesView from "../views/CoursesView.vue";
+import LessonsView from "../views/LessonsView.vue";
+import TagsView from "../views/TagsView.vue";
+import AboutView from "../views/AboutView.vue";
+import ErrorView from "../views/ErrorView.vue";
 
 Vue.use(VueRouter);
 
@@ -13,32 +13,32 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home,
+    component: HomeView,
   },
   {
     path: "/lecciones",
     name: "Lessons",
-    component: Lessons,
+    component: LessonsView,
   },
   {
     path: "/cursos",
     name: "Courses",
-    component: Courses,
+    component: CoursesView,
   },
   {
     path: "/etiquetas",
     name: "Tags",
-    component: Tags,
+    component: TagsView,
   },
   {
     path: "/acerca",
     name: "about",
-    component: About,
+    component: AboutView,
   },
   {
     path: "/404",
     name: "Error",
-    component: Error,
+    component: ErrorView,
   },
 ];
 

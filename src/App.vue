@@ -1,24 +1,24 @@
 <template>
   <div class="app-wrapper">
     <div class="app">
-      <Nav/>
+      <TheSidebar/>
       <main>
         <router-view />
       </main>
-      <Footer/>
+      <TheFooter/>
     </div>
   </div>
 </template>
 
 <script>
-import Nav from './components/Nav'
-import Footer from './components/Footer'
+import TheSidebar from './components/TheSidebar'
+import TheFooter from './components/TheFooter'
 
 export default {
   name: "app",
   components: { 
-    Nav,
-    Footer 
+    TheSidebar,
+    TheFooter 
   },
 };
 </script>

@@ -56,7 +56,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .footer {
     height: 25vh;
     margin-left: 5rem;
