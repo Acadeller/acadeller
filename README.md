@@ -25,7 +25,7 @@
 
 # Resumen 
 
-[Acadeller](https://github.com/Acadeller) es una comunidad creada para impulsar a las personas en el mundo del desarrollo de software. Que empezó siendo una pequeña cuenta de Instagram que hacía publicaciones sobre programación. A día de hoy contamos con más de 22.000 seguidores en nuestras redes sociales, pero nuestro objetivo sigue siendo el mismo: ***ayudar a a la gente a aprender programación.***
+[Acadeller](https://github.com/Acadeller) es una comunidad creada para impulsar a las personas en el mundo del desarrollo de software. Que empezó siendo una pequeña cuenta de Instagram que hacía publicaciones sobre programación. A día de hoy contamos con más de 30.000 seguidores en nuestras redes sociales, pero nuestro objetivo sigue siendo el mismo: ***ayudar a a la gente a aprender programación.***
 
 Si te interesa [contribuir](#contribución) en este repositorio puedes hacerlo de [esta manera](#contribución).
 
