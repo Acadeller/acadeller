@@ -54,15 +54,15 @@ export default {
         text-align: left;
         flex-direction: column;
         justify-content: center;
-        @media (min-width: 800px) {
-            margin-left: 10rem;
+        @media (min-width: 1000px) {
+            margin-left: 9rem;
         }
         div {
             max-width: 25rem;
             padding: 5rem 1.5rem;
             @media (max-width: 700px) {
-                    padding: 3rem 0 0 1.5rem;
-                }
+                padding: 3rem 0 0 1.5rem;
+            }
             h2 {
                 font-size: 2.5rem;
                 line-height: 1;
@@ -104,35 +104,30 @@ export default {
         }
     }
     .hero-photo {
-        order: 1;
-        flex: 3;
-        @media (min-width: 700px) {
-            order: 2;
-        }
-        @media (min-width: 800px) {
-            flex: 4;
-        }
+        max-width: 100%;
+        height: auto;
+        display: block;
         img {
-            margin-right: 40px;
             align-self: center;
-            border-radius: 10px;
-            display: block;
+            border-radius: 0.6rem;
             object-fit: cover;
             width: 100%;
+            height: 100%;
+            object-fit: contain;
+            overflow: hidden;
             transform: translatey(0px);
             animation: float 6s ease-in-out infinite;
         }
-
         @keyframes float {
-          0% {
+            0% {
             transform: translatey(0px);
-          }
-          50% {
+            }
+            50% {
             transform: translatey(-20px);
-          }
-          100% {
+            }
+            100% {
             transform: translatey(0px);
-          }
+            }
         }
     }
 }
