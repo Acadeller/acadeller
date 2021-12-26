@@ -53,7 +53,7 @@ export default {
     background-color: #23232e;
     transition: width 500ms ease;
     overflow: scroll;
-    z-index: 1;
+    z-index: 100;
 }
 
 .navbar-nav {

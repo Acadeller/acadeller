@@ -59,17 +59,20 @@ export default {
         }
         div {
             max-width: 500px;
-            padding: 72px 24px;
-            @media (min-width: 700px) {
-                padding: 0 24px;
+            padding: 4.5rem 1.5rem;
+            @media (max-width: 700px) {
+                padding: 1.5rem 1rem;   
             }
             h2 {
                 font-size: 32px;
                 font-weight: 300;
                 text-transform: uppercase;
-                margin-bottom: 20px;
+                margin-bottom: 1.25rem;
                 @media (min-width: 700px) {
                     font-size: 40px;
+                }
+                @media (max-width: 700px) {
+                    margin-bottom: 0.5rem; 
                 }
             }
             .content-preview {
@@ -85,8 +88,11 @@ export default {
             .link {
                 display: inline-flex;
                 align-items: center;
-                margin-top: 20px;
-                padding-bottom: 4px;
+                margin-top: 1.25rem;
+                padding-bottom: 0.25rem;
+                @media (max-width: 700px) {
+                    margin-top: 0.5rem; 
+                }
             }
         }
     }
