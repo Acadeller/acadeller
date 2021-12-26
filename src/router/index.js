@@ -14,31 +14,49 @@ const routes = [
     path: "/",
     name: "Home",
     component: HomeView,
+    meta: {
+      title: "Inicio"
+    }
   },
   {
     path: "/lecciones",
     name: "Lessons",
     component: LessonsView,
+    meta: {
+      title: "Lecciones"
+    }
   },
   {
     path: "/cursos",
     name: "Courses",
     component: CoursesView,
+    meta: {
+      title: "Cursos"
+    }
   },
   {
     path: "/etiquetas",
     name: "Tags",
     component: TagsView,
+    meta: {
+      title: "Etiquetas"
+    }
   },
   {
     path: "/acerca",
     name: "about",
     component: AboutView,
+    meta: {
+      title: "Acerca De"
+    }
   },
   {
     path: "/404",
     name: "Error",
     component: ErrorView,
+    meta: {
+      title: "Error"
+    }
   },
 ];
 
@@ -47,5 +65,10 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes,
 });
+
+router.beforeEach((to, from, next) => {
+  document.title = `${to.meta.title} | Acadeller`
+  next()
+})
 
 export default router;
