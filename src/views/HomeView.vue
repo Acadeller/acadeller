@@ -55,14 +55,13 @@ export default {
           description: "Descripción de la entrada del Blog",
           cover: "beautiful-stories"
         }
-      ],
-
-      blogCards: [
-        { title: "Card del Blog 1", cover: "stock-1", date: "25/12/2021"},
-        { title: "Card del Blog 2", cover: "stock-2", date: "25/12/2021"},
-        { title: "Card del Blog 3", cover: "stock-3", date: "25/12/2021"},
-        { title: "Card del Blog 4", cover: "stock-4", date: "25/12/2021"}
       ]
+    }
+  },
+
+  computed: {
+    blogCards() {
+      return this.$store.state.blogCards
     }
   },
 
@@ -77,7 +76,6 @@ export default {
 <style lang="scss" scoped>
 .blog-card-wrapper {
   border-bottom: 2px dashed rgb(50, 50, 70);
-  
   h3 { 
     font-weight: 300;
     font-size: 1.75rem;

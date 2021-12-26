@@ -1,6 +1,6 @@
 <template>
     <div class="blog-card">
-        <div class="icons">
+        <div v-show="canEditPost" class="icons">
             <div class="icon">
                 <Edit class="edit" />
             </div>
@@ -32,6 +32,12 @@ export default {
         post: Array,
     },
 
+    computed: {
+        canEditPost() {
+            return this.$store.state.canEditPost
+        }
+    },
+    
     components: {
         Arrow,
         Edit,
