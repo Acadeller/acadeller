@@ -41,6 +41,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .blog-card {
     position: relative;
     cursor: pointer;
@@ -68,10 +69,10 @@ export default {
             width: 35px;
             height: 35px;
             border-radius: 50%;
-            background-color: #303030;
+            background-color: $dark-secondary;
             transition: 0.5s ease all;
             &:hover {
-                background-color: #ffcc00;
+                background-color: $primary;
                 .edit,
                 .delete {
                     path {
@@ -126,7 +127,7 @@ export default {
             transition: 0.5s ease-in all;
             color: rgba(255, 255, 255, 0.671);
             &:hover {
-                color: #ffcc00;
+                color: $primary;
             }
             .arrow {
                 width: 10px;

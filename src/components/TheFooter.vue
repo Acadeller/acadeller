@@ -98,7 +98,7 @@ export default {
     color:#2c2c3a;
 }
 .ic:hover , .ic:hover .circle {
-    color:#ffcc00;
+    color: #ffcc00;
 }
 
 @media only screen and (max-width: 600px) {

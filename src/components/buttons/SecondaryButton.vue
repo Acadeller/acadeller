@@ -12,7 +12,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .button {
   backface-visibility: hidden;
   background: #0000;
@@ -20,7 +20,7 @@ export default {
   border-radius: .375rem;
   box-sizing: border-box;
   color: #fff;
-  border: 2px solid #ffcc00;
+  border: 2px solid $primary;
   cursor: pointer;
   display: inline-block;
   font-family: Circular,Helvetica,sans-serif;
@@ -46,7 +46,7 @@ export default {
 
 .button:not(:disabled):hover {
   transform: scale(1.02);
-  background: #ffcc00;
+  background: $primary;
   color: #26262e
 }
 

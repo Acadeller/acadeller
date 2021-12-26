@@ -1,4 +1,12 @@
 module.exports = {
+  css: {
+    loaderOptions: {
+      sass: {
+        prependData: `@import "@/styles/styles.scss";`
+      }
+    }
+  },
+
   chainWebpack: (config) => {
     const svgRule = config.module.rule("svg");
 

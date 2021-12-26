@@ -12,10 +12,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .button {
   backface-visibility: hidden;
-  background: #ffcc00;
+  background: $primary;
   border: 0;
   border-radius: .375rem;
   box-sizing: border-box;

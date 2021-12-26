@@ -35,6 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .blog-wrapper {
     display: flex;
     flex-direction: column;
@@ -132,7 +133,7 @@ export default {
 }
 .no-user:first-child {
     .blog-content {
-        background-color: #303030;
+        background-color: $dark-secondary;
         color: #fff;
     }
 }

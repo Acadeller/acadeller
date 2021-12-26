@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+$dark: #17171B;
+$dark-secondary: #303030;
+$primary: #ffcc00;
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +13,7 @@
 }
 
 body {
-    background: rgb(23, 23, 27);
+    background: $dark;
 }
 
 body::-webkit-scrollbar {
@@ -39,7 +43,7 @@ main {
     margin-top: 0.25rem;
     margin-left: 5rem;
     padding: 1rem;
-    background: rgb(23, 23, 27);
+    background: $dark;
     min-height: 550px;
     color: #fff;
 }

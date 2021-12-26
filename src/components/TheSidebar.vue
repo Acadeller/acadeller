@@ -102,7 +102,7 @@ export default {
 }
 
 .fa-primary {
-    color: #ffcc00;
+    color: $primary;
 }
 
 .fa-secondary {
