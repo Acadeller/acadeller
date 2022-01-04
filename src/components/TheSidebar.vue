@@ -148,7 +148,7 @@ export default {
     bottom: 0;
     width: 100vw;
     height: 5rem;
-    z-index: 1;
+    z-index: 100;
   }
 
   .logo {
