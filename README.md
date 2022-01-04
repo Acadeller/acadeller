@@ -72,7 +72,6 @@ Primero, haz fork de este repositorio en Github.
 ```shell
 git clone <tu-fork-del-repositorio>
 npm install
-npm ci
 npm run dev
 
 git checkout -b mi-rama
