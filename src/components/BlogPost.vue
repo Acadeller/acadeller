@@ -58,11 +58,14 @@ export default {
         @media (min-width: 800px) {
             flex: 3;
         }
+        @media (max-width: 700px) {
+            margin-left: 2.2rem;
+        }
         div {
             max-width: 500px;
             padding: 4.5rem 1.5rem;
             @media (max-width: 700px) {
-                padding: 1.5rem 1rem;   
+                padding: 1.5rem 1rem;
             }
             h2 {
                 font-size: 32px;
@@ -73,7 +76,7 @@ export default {
                     font-size: 40px;
                 }
                 @media (max-width: 700px) {
-                    margin-bottom: 0.5rem; 
+                    margin-bottom: 0.5rem;
                 }
             }
             .content-preview {
@@ -92,7 +95,7 @@ export default {
                 margin-top: 1.25rem;
                 padding-bottom: 0.25rem;
                 @media (max-width: 700px) {
-                    margin-top: 0.5rem; 
+                    margin-top: 0.5rem;
                 }
             }
         }
@@ -127,7 +130,9 @@ export default {
 
     &:nth-child(odd) {
         .blog-content {
-            align-items: center;
+            @media (min-width: 700px) {
+                align-items: center;
+            }
         }
     }
 }
