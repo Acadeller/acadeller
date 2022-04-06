@@ -29,7 +29,7 @@ export default {
     name: "BlogCard",
 
     props: {
-        post: Array,
+        post: Object,
     },
 
     computed: {
@@ -37,7 +37,7 @@ export default {
             return this.$store.state.canEditPost
         }
     },
-    
+
     components: {
         Arrow,
         Edit,

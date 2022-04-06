@@ -47,7 +47,7 @@ const routes = [
   },
   {
     path: "/acerca",
-    name: "about",
+    name: "About",
     component: AboutView,
     meta: {
       title: "Acerca De"
@@ -55,7 +55,7 @@ const routes = [
   },
   {
     path: "/login",
-    name: "login",
+    name: "Login",
     component: LoginView,
     meta: {
       title: "Login"
@@ -63,7 +63,7 @@ const routes = [
   },
   {
     path: "/registro",
-    name: "register",
+    name: "Register",
     component: RegisterView,
     meta: {
       title: "Registro"
